@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title style="text-align: center;font-weight: bolder;">!Bienvenidos¡</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <img src="../assets/prelogin.png " alt=" Logo">
+
+
+  <ion-toolbar style="background-color: white;">
+    <ion-button style="margin-top: 20%; font-size: small;" [routerLink]="['/login']" expand="block" fill="outline"
+      shape="round">
+      <ion-icon name="school-outline"></ion-icon>
+      Ingresar como Alumno
+    </ion-button>
+
+    <ion-button style="margin-top: 10%; font-size: small;" [routerLink]="['/login']" expand="block" fill="outline"
+      shape="round">
+      <ion-icon name="person-outline"></ion-icon>
+      Ingresar como Docente
+    </ion-button>
+  </ion-toolbar>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="secondary">
+    <ion-title style="text-align: center;font-size: small;">©2022 DUOC UC </ion-title>
+  </ion-toolbar>
+</ion-footer>

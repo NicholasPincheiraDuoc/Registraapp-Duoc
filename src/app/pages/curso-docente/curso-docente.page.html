@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>Cursos</ion-title>
+    <ion-buttons  slot="end">
+      <ion-button  [routerLink] = "['/inicio']">
+        <ion-icon slot="start" name="exit-outline" color="primary"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title style="text-align: center;" class="titulo">Cursos Del Profesor</ion-card-title>
+      <ion-card-subtitle>Selecciona la Asignatura la cual crearas el codigo QR</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card> 
+
+    <ion-item href="qr" detail=false>
+      <ion-card-subtitle>Web Movil -</ion-card-subtitle>
+      <ion-card-subtitle>- Seccion 07V</ion-card-subtitle>
+      <ion-button fill="outline" slot="end" shape="round" routerLink="/qr">
+        Crear
+      </ion-button>
+    </ion-item>
+
+    <ion-item href="qr" detail=false>
+      <ion-card-subtitle>Etica -</ion-card-subtitle>
+      <ion-card-subtitle>- Seccion 05V</ion-card-subtitle>
+      <ion-button fill="outline" slot="end" shape="round" routerLink="/qr">
+        Crear
+      </ion-button>
+    </ion-item>
+
+    <ion-item href="qr" detail=false>
+      <ion-card-subtitle>Ingles -</ion-card-subtitle>
+      <ion-card-subtitle>- Seccion 03V</ion-card-subtitle>
+      <ion-button fill="outline" slot="end" shape="round" routerLink="/qr">
+        Crear
+      </ion-button>
+    </ion-item>
+    <ion-item href="qr" detail=false>
+      <ion-card-subtitle>Estadistica -</ion-card-subtitle>
+      <ion-card-subtitle>- Seccion 08V</ion-card-subtitle>
+      <ion-button fill="outline" slot="end" shape="round" routerLink="/qr">
+        Crear
+      </ion-button>
+    </ion-item>
+    <ion-item href="qr" detail=false>
+      <ion-card-subtitle>BD -</ion-card-subtitle>
+      <ion-card-subtitle>- Seccion 01V</ion-card-subtitle>
+      <ion-button fill="outline" slot="end" shape="round" routerLink="/qr">
+        Crear
+      </ion-button>
+    </ion-item>
+   </ion-card>
+
+</ion-content>
